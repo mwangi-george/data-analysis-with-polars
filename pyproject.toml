@@ -1,0 +1,18 @@
+[project]
+name = "data-analysis-with-polars"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "adbc-driver-sqlite>=1.6.0",
+    "connectorx>=0.4.3",
+    "fastexcel>=0.14.0",
+    "notebook>=7.4.3",
+    "pandas>=2.3.0",
+    "polars>=1.31.0",
+    "pyarrow>=20.0.0",
+    "pyjanitor>=0.31.0",
+    "python-dotenv>=1.1.0",
+    "xlsxwriter>=3.2.5",
+]
